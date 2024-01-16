@@ -1,6 +1,6 @@
 // Para revisar el funcionamiento del servidor, utilizar Postman con los siguientes parámetros:
 // GET   http://localhost:8080/autores?accion=alta&nombre=Enrique&apellidos=Peña
-
+// 
 require('dotenv').config();
 
 global.rowIndex = 0;
@@ -116,6 +116,7 @@ const url = require('url');
 
 // const host = process.env.DB_HOST;
 const port = process.env.PORT;
+hostname = 'localhost';
 
 var accion = 'alta';
 var nombre = 'Luis';
