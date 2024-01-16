@@ -5,7 +5,7 @@ require('dotenv').config();
 
 global.rowIndex = 0;
 
-const model = require('./model/model');
+const model = require('../model/model');
 // const login = require('./login');
 
 const express = require('express')
